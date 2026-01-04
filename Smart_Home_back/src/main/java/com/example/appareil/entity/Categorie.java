@@ -29,14 +29,6 @@ public class Categorie {
         return id;
     }
 
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public String getLabel() {
-        return label;
-    }
-
     public void setLabel(String label) {
         this.label = label;
     }
@@ -47,5 +39,13 @@ public class Categorie {
 
     public void setAppareilList(List<Appareil> appareilList) {
         this.appareilList = appareilList;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getLabel() {
+        return label;
     }
 }
